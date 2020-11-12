@@ -9,7 +9,7 @@ type DBconf struct {
 	dbname string
 }
 
-//New config for DB
+//NewDBConfig config for DB
 func NewDBconfig() *DBconf {
 	return &DBconf{
 		host:   "localhost",
