@@ -1,4 +1,4 @@
-package db
+package database
 
 type DB struct {
 	cfg *DBconf

@@ -1,12 +1,17 @@
 package main
 
 import (
+	"database/sql"
+	"fmt"
+
+	"github.com/kirusha123/TEST-DB/DB"
+
 	_ "github.com/lib/pq"
 )
 
 func main() {
 
-	/*DBconf := NewDBconfig()
+	DBconf := DB.NewDBconfig()
 
 	dbURL := fmt.Sprintf("host=%s port=%d user=%s "+"password=%s dbname=%s sslmode=disable", DBconf.host, DBconf.port, DBconf.user, DBconf.pass, DBconf.dbname)
 
@@ -18,6 +23,6 @@ func main() {
 	defer db.Close()
 	if err := db.Ping(); err != nil {
 		fmt.Print("db doesnt ping")
-	}*/
+	}
 
 }
