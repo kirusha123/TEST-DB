@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/kirusha123/TEST-DB/DB"
+	"DB"
 
 	_ "github.com/lib/pq"
 )
